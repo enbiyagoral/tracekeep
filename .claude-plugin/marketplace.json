@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tracekeep",
+  "description": "tracekeep \u2014 agent-handoff records for Claude Code sessions",
+  "owner": {
+    "name": "Enbiya Goral",
+    "url": "https://github.com/enbiyagoral"
+  },
+  "plugins": [
+    {
+      "name": "tracekeep",
+      "description": "Capture what really ran in a session and save it as a handoff record with /tracekeep:task",
+      "source": {
+        "source": "github",
+        "repo": "enbiyagoral/tracekeep",
+        "ref": "tracekeep--v0.1.0",
+        "sha": "0519b47dd19840cb0ede92c291851428e90c90ad"
+      },
+      "category": "productivity"
+    }
+  ]
+}

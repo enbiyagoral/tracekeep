@@ -1,0 +1,4 @@
+# The plugin writes evidence to ${XDG_STATE_HOME:-~/.local/state}/tracekeep/,
+# never into this repository, so there is no generated output to ignore here.
+*.tmp
+.DS_Store

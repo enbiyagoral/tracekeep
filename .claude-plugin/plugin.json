@@ -1,0 +1,12 @@
+{
+  "name": "tracekeep",
+  "version": "0.1.0",
+  "description": "Record Claude Code engineering sessions as agent-handoff documents: /tracekeep:task writes README.md + evidence.jsonl that another session can take over months later.",
+  "author": {
+    "name": "Enbiya Goral",
+    "url": "https://github.com/enbiyagoral"
+  },
+  "repository": "https://github.com/enbiyagoral/tracekeep",
+  "license": "MIT",
+  "keywords": ["handoff", "evidence", "engineering-record", "hooks"]
+}
